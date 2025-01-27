@@ -19,7 +19,7 @@
             while (currentTime <= endTime)
             {
                 double velocity = g * currentTime; 
-                Console.WriteLine($"{currentTime}             |        {velocity}");
+                Console.WriteLine($"{currentTime   }             |        {velocity}");
 
                 currentTime += timeStep; 
             }
